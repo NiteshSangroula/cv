@@ -14,11 +14,7 @@ h1 {
     color: #66BFBF;
 }
 
-h3 {
-    color: #7F7C82;
-}
-
-h4 {
+h3, h4 {
     color: #7F7C82;
 }
 
@@ -26,3 +22,27 @@ th {
     color: #B5FFD9;
 }
 
+img {
+    border-radius: 50%;
+    width: 160px;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+a:hover {
+    background-color: green;
+}
+
+a:active {
+    background-color: red;
+}
+
+a:link {
+    background-color: silver;
+}
