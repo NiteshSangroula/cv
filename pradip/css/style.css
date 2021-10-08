@@ -1,0 +1,88 @@
+/* general Styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Top Section */
+
+.intro {
+    background-color: #00ADB5;
+}
+
+.about-me-header {
+    position: relative;
+    top: 40px;
+    padding-top: 20px;
+}
+
+.my-Heading {
+    font-weight: bolder;
+    font-size: 38px;
+    padding-top: 3rem;
+    text-shadow: 5px 3px 5px white;
+}
+
+.my-img {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 30%;
+}
+
+.my-bio {
+    padding: 20px 200px;
+}
+
+/* top-bottom section*/
+
+.me {
+    display: inline-block;
+    width: 290px; 
+    margin: 3rem;
+    padding: 20px;
+}
+
+.me-image {
+    padding: 20px;
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+
+.me-image:hover {
+    opacity: 1;
+}
+
+/* bottom section */
+
+.bottom-section {
+    padding: 80px;
+    background-color: #00ADB5;
+}
+
+.link {
+    padding: 10px 20px;
+    background-color: #222831;
+    color: white;
+    text-decoration: none;
+    margin: 2px;
+}
+
+.link:hover {
+    background-color: green;
+}
+
+.copy-right {
+    position: relative;
+    top: 55px;
+    color: white;
+}
